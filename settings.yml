@@ -1,0 +1,79 @@
+auto_download: true
+remove_finished_downloads: true
+simultaneous_downloads: 5
+theme: System
+accent_color: ''
+background_image_path: 
+background_image_opacity: 0.5
+background_image_blur_radius: 10
+history: true
+history_lang: pt-BR
+history_add_specials: false
+history_count_sonarr: false
+sonarr_properties:
+  host: ''
+  port: 0
+  api_key: ''
+  use_ssl: false
+  url_base: 
+  use_sonarr_numbering: false
+  sonarr_enabled: false
+log_mode: false
+download_dir_path: D:\CRD\video\
+download_temp_dir_path: D:\CRD\temp\
+download_to_temp_folder: true
+history_page_properties:
+  selected_sorting: Series Title
+  selected_view: Posters
+  selected_filter: All
+  scale_value: 0.73
+  ascending: false
+download_speed_limit: 0
+proxy_enabled: false
+proxy_host: ''
+proxy_port: 0
+hard_sub_lang: none
+no_video: false
+no_audio: false
+quality_video: best
+quality_audio: best
+file_name: ${seriesTitle}\${seriesTitle}.T${season}EP${episode}
+leading_numbers: 2
+soft_subs:
+- pt-BR
+mux_skip_subs: false
+subs_add_scaled_border: ScaledBorderAndShadowYes
+include_signs_subs: true
+mux_signs_subs_flag: false
+include_cc_subs: false
+cc_subs_font: Trebuchet MS
+mux_cc_subs_flag: false
+mux_mp4: false
+mux_video_title: ''
+mux_video_description: false
+mux_description_lang: pt-BR
+mux_ffmpeg: []
+mux_mkvmerge:
+- --no-date
+- --disable-track-statistics-tags
+- --engage no_variable_data
+mux_default_sub: pt-BR
+mux_default_sub_signs: false
+mux_default_sub_forced_display: false
+mux_default_dub: pt-BR
+dl_video_once: true
+keep_dubs_seperate: false
+mux_skip_muxing: false
+mux_sync_dubs: false
+encode_enabled: false
+encode_preset: AV1 1080p24
+chapters: true
+dub_lang:
+- pt-BR
+- ja-JP
+calendar_language: pt-BR
+calendar_dub_filter: none
+calendar_custom: true
+calendar_hide_dubs: false
+calendar_filter_by_air_date: false
+stream_endpoint: web/firefox
